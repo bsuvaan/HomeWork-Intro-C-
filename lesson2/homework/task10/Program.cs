@@ -5,6 +5,6 @@ Console.WriteLine("Введите трехзначное число: ");
 string input_text = Console.ReadLine();
 if (input_text.Length == 3)
 {
-    Console.WriteLine("Второе в записи число: " + input_text[2]);
+    Console.WriteLine("Второе в записи число: " + input_text[1]);
 }
 else Console.WriteLine("Число должно быть трехзначным");
